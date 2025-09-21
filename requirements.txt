@@ -1,0 +1,14 @@
+streamlit
+langchain
+langchain-community
+langchain-groq
+chromadb
+mysql-connector-python
+streamlit-oauth
+pypdf
+beautifulsoup4
+lxml
+unstructured[docx]
+python-magic-bin
+python-dotenv
+tiktoken
