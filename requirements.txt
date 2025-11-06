@@ -1,14 +1,34 @@
-streamlit
-langchain
-langchain-community
-langchain-groq
-chromadb
-mysql-connector-python
-streamlit-oauth
-pypdf
-beautifulsoup4
-lxml
-unstructured[docx]
-python-magic-bin
-python-dotenv
-tiktoken
+streamlit==1.48.1
+
+# LangChain (2025)
+langchain==0.3.27
+langchain-community==0.3.27
+langchain-core==0.3.74
+langchain-groq==0.3.7
+langchain-text-splitters==0.3.9
+
+# Vector DB
+chromadb==1.0.20
+
+# Parsing, documents
+pypdf==6.0.0
+beautifulsoup4==4.13.4
+lxml==6.0.1
+unstructured==0.18.13
+unstructured-client==0.42.3
+
+# File / system
+python-magic==0.4.27
+python-magic-bin==0.4.14
+python-docx==1.2.0
+
+# Utilities
+python-dotenv==1.0.1
+tiktoken==0.11.0
+requests==2.32.5
+
+# Database
+mysql-connector-python==9.4.0
+
+# Auth
+streamlit-oauth==0.1.14
